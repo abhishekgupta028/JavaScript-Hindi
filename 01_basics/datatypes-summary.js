@@ -39,3 +39,31 @@ console.log(outsideTemp);
 
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// Stack (Primitive),  Heap (Non-Primitive)
+
+let myName = "Abhishek"
+
+let anotherName = myName
+anotherName = "Pawan"
+
+console.log(myName);
+console.log(anotherName);
+
+
+let userOne = {
+    email: "user@google.com",
+    upi : "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "abhi@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
+
