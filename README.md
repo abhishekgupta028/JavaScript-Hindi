@@ -1,2 +1,2 @@
 # JavaScript-Hindi
-A code repo for javascript series on Chai aur Code channel
+A code repo for learning and practicing javascript series.
