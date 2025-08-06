@@ -1,6 +1,6 @@
 // truthy values are assumed to be true
 
-// falsy values are assumed to be false
+//and  falsy values are assumed to be false
 
 const userEmail = []
 
