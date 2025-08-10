@@ -33,12 +33,12 @@ map.set('USA', "America")
 map.set('Fr', "France")
 
 for (const key of map) {
-  //  console.log(key);
+    console.log(key);
     
 }
 
 for (const [key, value] of map) {
-    console.log(key, ':-', value);
+   console.log(key, ':-', value);
     
 }
 
