@@ -5,7 +5,7 @@
 
 # Solution code
 
-## project 1
+## project 1 'Color Changer'
 
 ```javascript
 const buttons = document.querySelectorAll('.button')
@@ -34,7 +34,7 @@ buttons.forEach(function (button){
 });
 ```
 
-## project 2 solution code
+## project 2 'BMI Calculator' solution code
 
 ```javascript
 const form = document.querySelector('form')
@@ -69,7 +69,7 @@ form.addEventListener('submit', function(e){
 })
 ```
 
-## project 3 solution code
+## project 3 'Digital Clock' solution code
 
 ``` javascript
 const clock = document.getElementById('clock')
@@ -83,7 +83,7 @@ setInterval(function(){
 }, 1000)
 ```
 
-## project 4 solution code
+## project 4 'Guess the Number' solution code
 
 ``` javascript
 
@@ -178,6 +178,29 @@ function newGame() {
     playGame = true;
   });
 }
+```
+
+## project 5 'KeyCodes' solution code
+
+``` javascript
+const insert = document.getElementById('insert');
+
+window.addEventListener('keydown', (e) => {
+  insert.innerHTML=`<div class='color'>
+    <table>
+    <tr>
+      <th>Key</th>
+      <th>Keycode</th> 
+      <th>Code</th>
+    </tr>
+    <tr>
+      <td>${e.key === ' ' ? 'Space' : e.key}</td>
+      <td>${e.keyCode}</td> 
+      <td>${e.code}</td>
+    </tr>
+    </table>
+  </div>`
+})
 ```
 
 ## project-6 'Unlimited colors' solution code
